@@ -4,11 +4,11 @@ import Progress from './Progress'
 
 function Render() {
   return (
-    <div>
-        <div className='flex'>
-        <Chart></Chart>
-        <Progress></Progress>
-        </div>
+    <div className='flex items-stretch gap-4'>
+    
+        <Chart/>
+        <Progress/>
+   
     </div>
   )
 }

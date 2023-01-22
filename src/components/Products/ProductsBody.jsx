@@ -20,14 +20,14 @@ function ProductsBody() {
     <div>
       <div class="flex min-h-screen">
         <div class="container ml-6 mr-auto flex flex-wrap items-start">
-          <div class="w-full pl-4 lg:pl-2 mb-4 mt-4">
+          <div class="w-full ml-5 pl-4 lg:pl-2 mb-4 mt-4">
             <h1 class="text-xl lg:text-3xl text-gray-700 font-bold">
               Best Sellers
             </h1>
           </div>
           {products.map((product) => (
-            <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2 hover:cursor-pointer">
-              <div class=" rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
+            <div class="w-full md:w-1/2 lg:max-w-sm   p-4 mb-2  hover:cursor-pointer">
+              <div class=" rounded-lg m-h-64 p-4 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
                 <figure class="mb-2">
                   <img
                     src={product.thumbnail}
@@ -41,7 +41,7 @@ function ProductsBody() {
                       <p class="text-white text-md font-medium leading-none pb-1">
                         {product.brand}
                       </p>
-                      <p className="bg-yellow-400 py-1 px-2 rounded-full text-white text-sm font-medium leading-none pb-1 flex hover:cursor-pointer">
+                      <p className="bg-yellow-400 py-1 px-2 rounded-full text-white text-sm font-semibold leading-none pb-1 flex hover:cursor-pointer">
                         {product.rating}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ function ProductsBody() {
                         </svg>
                       </p>
                     </span>
-                    <h5 class="text-white text-2xl font-bold leading-none">
+                    <h5 class="text-white text-xl font-bold leading-none">
                       {product.title}
                     </h5>
                     {/* <span class="text-xs text-gray-400 w-full truncate overflow-hidden">

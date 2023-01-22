@@ -6,7 +6,7 @@ import Box from "../../components/Dashboard/Box";
 
 function Dashboard() {
   return (
-    <div>
+    <div className="px-4 sm:px-6 lg:px-8">
       <Hero />
       <Card />
       <Render />

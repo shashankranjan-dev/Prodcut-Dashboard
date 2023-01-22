@@ -7,9 +7,9 @@ export default function IndexPage() {
   const [show5, setShow5] = useState(false);
   return (
     <>
-      <div className="flex items-start ml-6 justify-start py-6">
-        <div className="w-[910px] rounded-lg shadow overflow-x-auto">
-          <table className="w-[910px]">
+      <div className="flex items-start justify-start py-6">
+        <div className="  rounded-lg shadow overflow-x-auto" style={{width: 1120}}>
+          <table className=" "style={{width: 1120}}>
             <thead className="dark:bg-white bg-gray-800">
               <tr>
                 <td className="text-base font-bold text-gray-800 dark:text-gray-900  sm:py-8 py-4 sm:pl-6 pl-4">
@@ -24,7 +24,7 @@ export default function IndexPage() {
                 <td className="text-sm font-bold text-gray-800 dark:text-gray-900 pl-6  sm:pr-6 pr-4"></td>
                 <td className="text-sm font-bold text-gray-800 dark:text-gray-900 pl-6  sm:pr-6 pr-4"></td>
 
-                <td className="text-sm font-bold text-gray-800 dark:text-blue-700 pl-6  sm:pr-6 pr-4">
+                <td className="text-sm font-bold text-gray-800 dark:text-blue-700 pl-0  sm:pr-6 pr-4">
                   <div className="flex font-bold items-center">
                     See All Transactions {">"}
                   </div>

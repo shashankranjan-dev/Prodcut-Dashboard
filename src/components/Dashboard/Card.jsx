@@ -5,7 +5,7 @@ function Index() {
     <>
       {/* Card is full width. Use in 12 col grid for best view. */}
       {/* Card code block start */}
-      <div className="w-11/12 mt-6 ml-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      <div className="mt-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         <div className="bg-white rounded-xl py-2 pl-6 flex items-start shadow">
           <div className="pl-3 pr-10 mt-1">
             <h3 className="font-semibold leading-4 text-gray-700 dark:text-gray-700 text-base">

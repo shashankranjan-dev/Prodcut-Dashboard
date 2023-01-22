@@ -1,13 +1,13 @@
 const Index = () => {
   return (
-    <div className="py-7 ml-6">
-      <div className="max-w-sm bg-white shadow rounded-lg p-6">
+    <div className="py-6 ml-4 max-w-lg w-full">
+      <div className=" bg-white shadow rounded-lg p-9">
         <div className="flex items-center justify-between">
           <p className="text-base font-bold leading-5 text-gray-800 pr-40">
             Transactions
           </p>
         </div>
-        <p className="text-sm leading-normal text-gray-500 pt-2">
+        <p className="text-sm leading-normal text-gray-500 pt-1">
           Lorem ipsum dollar set atis
         </p>
 

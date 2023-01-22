@@ -1,9 +1,8 @@
 import React from "react";
 export default function IndexPage() {
   return (
-    <>
-      <div className="flex items-start justify-between w-full h-full py-12 ml-2 px-4">
-        <div className="max-w-sm w-full bg-white -mt-6 h-full shadow rounded-lg px-8 py-6">
+
+        <div className=" bg-white h-full shadow rounded-lg px-8 py-6 mt-6 max-w-lg w-full">
           <div className="flex items-center justify-between">
             <div>
               <p className=" text-base font-bold  text-gray-800 dark:text-gray-900">
@@ -69,9 +68,22 @@ export default function IndexPage() {
                 <div className="w-2/5 h-2 bg-blue-500 rounded-full" />
               </div>
             </div>
+            <div className="mt-6">
+              <div className="flex items-center justify-between">
+                <p className="text-sm leading-3 font-semibold text-gray-500 dark:text-gray-900">
+                  Twitter
+                </p>
+                <p className="text-base leading-3 text-right text-gray-800 dark:text-gray-900">
+                  320
+                </p>
+              </div>
+              <div className="w-full h-2 bg-gray-200 rounded-full mt-6">
+                <div className="w-2/5 h-2 bg-blue-500 rounded-full" />
+              </div>
+            </div>
+           
           </div>
         </div>
-      </div>
-    </>
+
   );
 }

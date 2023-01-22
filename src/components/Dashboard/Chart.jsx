@@ -60,14 +60,14 @@ function Index() {
   });
   return (
     <>
-      <div className="xl:w-full ml-6 2xl:w-max w-full mt-6 bg-white md:p-4 p-5 rounded-lg shadow">
+      <div className="mt-6 bg-white md:px-8 p-6 rounded-lg shadow ">
         <div className="lg:flex justify-between w-full items-center">
-          <div className="py-1 md:px-4 flex items-center">
+          <div className=" py-3 md:px-4 flex items-center">
             <p className="text-base font-bold leading-none text-center text-gray-900">
               Sales Report
             </p>
           </div>
-          <div className="py-3 md:px-4 flex items-center">
+          <div className=" py-3 md:px-4 flex items-center">
             <div className="px-2 sm:px-3.5 border p-2 border-gray-300 rounded-lg shadow-lg">
               <p className="text-xs font-semibold leading-none text-gray-900">
                 12 Months
@@ -115,9 +115,8 @@ function Index() {
           </div>
           <canvas
             id="line_chart"
-            height={528}
-            width={1760}
-            style={{ display: "block", height: 264, width: 880 }}
+        
+            style={{ display: "block", height: 250, width: 1056 }}
             className="chartjs-render-monitor"
           />
         </div>
