@@ -16,7 +16,7 @@ function SignUp() {
     console.log(user);
 
     axios
-      .post("http://localhost:5000/api/user/register", user)
+      .post("https://product-dashboard-clarity.onrender.com/api/user/register", user)
       .then((response) => {
         console.log(response);
         if (response.status === 200) {
