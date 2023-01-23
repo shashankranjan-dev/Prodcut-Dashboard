@@ -62,7 +62,7 @@ function SignUp() {
         >
           <div class="flex items-center h-full px-20 bg-gray-900 bg-opacity-40">
             <div>
-              <h2 class="text-4xl font-bold text-white">Brand</h2>
+              <h2 class="text-4xl font-bold text-white">ClarityUI</h2>
 
               <p class="max-w-xl mt-3 text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
