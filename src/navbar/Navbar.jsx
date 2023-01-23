@@ -24,7 +24,7 @@ export default function IndexPage() {
         {/* Sidebar starts */}
         <div className=" sticky top-0 left-0 h-screen w-64 bg-gray-100 hidden lg:block">
           <div className="h-16 w-full bg-white shadow flex items-center px-8">
-            <Link to="/" className="flex">
+            <Link to="/dashboard" className="flex">
               <img
                 src="/circle-outline-svgrepo-com.svg"
                 alt="logo"
@@ -94,7 +94,7 @@ export default function IndexPage() {
                     strokeLinejoin="round"
                   />
                 </svg>
-                <Link to="/">
+                <Link to="/dashboard">
                   <p className="text-base font-semibold leading-4 border-b border-transparent text-black hover:border-white focus:border-white  ">
                     Dashboard
                   </p>
