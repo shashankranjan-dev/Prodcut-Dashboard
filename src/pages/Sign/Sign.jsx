@@ -1,14 +1,12 @@
-import React from 'react'
-import Signbody from '../../components/Sign/Signbody';
-
+import React from "react";
+import Signbody from "../../components/Sign/Signbody";
 
 function Sign() {
   return (
-    <div className='app'>
-  <Signbody />;
-
-  </div>
-  )
+    <div className="app">
+      <Signbody />;
+    </div>
+  );
 }
 
-export default Sign
+export default Sign;
